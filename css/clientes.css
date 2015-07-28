@@ -1,0 +1,16 @@
+.site-wrapper-inner {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('../img/BG quimera.jpg') no-repeat center center fixed;
+  /* magic code to fix background size */ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* end magic */ 
+  display: table-cell;
+  vertical-align: top;
+}
